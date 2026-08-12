@@ -1,0 +1,19 @@
+# human-date-diff
+
+> Relative time formatting: diff(a, b) -> "3 days ago"/"in 2 hours", configurable thresholds, duration breakdown, Intl.RelativeTimeFormat.
+
+Format time differences as human-readable relative strings ("3 days ago", "in 2 hours") with configurable unit thresholds. Optional Intl.RelativeTimeFormat with fallback strings. Break down milliseconds into {days, hours, minutes, seconds}.
+
+## API
+
+- `diff(from: Date, to?: Date, opts?: DiffOptions): string` — Relative time string
+- `breakdown(ms: number): DurationBreakdown` — Split into day/hour/minute/second
+- Configurable thresholds, locale, Intl fallback
+
+## Install
+
+```
+npm i human-date-diff
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

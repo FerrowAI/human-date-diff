@@ -1,5 +1,7 @@
 # human-date-diff
 
+Install: npm install @ferrow/human-date-diff
+
 > Relative time formatting: diff(a, b) -> "3 days ago"/"in 2 hours", configurable thresholds, duration breakdown, Intl.RelativeTimeFormat.
 
 Format time differences as human-readable relative strings ("3 days ago", "in 2 hours") with configurable unit thresholds. Optional Intl.RelativeTimeFormat with fallback strings. Break down milliseconds into {days, hours, minutes, seconds}.

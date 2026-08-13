@@ -1,4 +1,8 @@
 # human-date-diff
+
+```sh
+npm install @ferrow/human-date-diff
+```
 ![CI](https://github.com/FerrowAI/human-date-diff/actions/workflows/ci.yml/badge.svg)
 
 Relative time formatting: diff(a, b) → "3 days ago", configurable thresholds, duration breakdown, Intl.RelativeTimeFormat.
